@@ -3,7 +3,7 @@ import {BrowserRouter as Router ,Routes , Route} from 'react-router-dom'
 import HomePage from './Pages/Home';
 import Courses from './Pages/Courses';
 import Resources from './Pages/Resources';
-import Contact from './Pages/Contact';
+import About from './Pages/About';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import LoginForm from './Pages/loginForm';
@@ -11,18 +11,19 @@ import RegisterForm from './Pages/RegisterForm';
 import IntroInReact from './Pages/courses/IntroInReact';
 import AdvJs from './Pages/courses/AdvJs';
 
-function App() {
 
+function App() {
 
   return (
   <>
+
   <Router>
       <Header />
       <Routes>
         <Route index element={<HomePage />} />
-        <Route path='/courses'  element={<Courses/>} />
-        <Route path='/resources' element={<Resources/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/courses'  element={<Courses />} />
+        <Route path='/resources' element={<Resources />} />
+        <Route path='/about' element={ <About /> } />
         <Route path='/login' element={<LoginForm />} /> 
         <Route path='/register' element={<RegisterForm />} />
         <Route path='/introinReact' element={<IntroInReact />} />
@@ -31,6 +32,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+
     </>
   )
 }

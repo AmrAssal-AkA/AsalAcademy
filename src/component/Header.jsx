@@ -7,7 +7,7 @@ export default function Header() {
         {name : "Home" , link : "/"},
         {name : "Resources" , link : "/resources"},
         {name : "Courses" , link : "/courses" },
-        {name : "Contact" , link : "/contact"}
+        {name : "About" , link : "/about" },
         ];
         let [open , setOpen] = useState(false);
 return (
