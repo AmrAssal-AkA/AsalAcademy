@@ -84,7 +84,7 @@ function Contact(){
               </span>
               <div>
                 <div className="font-semibold text-cyan-300">Email</div>
-                <div className="text-black text-sm">wrub7d78ioe@temporary-mail.net</div>
+                <div className="text-black text-sm">AsalAcademy@gmail.com</div>
               </div>
             </div>
           </div>
