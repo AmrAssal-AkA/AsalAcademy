@@ -1,5 +1,5 @@
 import './App.css'
-import {BrowserRouter as Router ,Routes , Route} from 'react-router-dom'
+import {HashRouter as Router ,Routes , Route} from 'react-router-dom'
 import HomePage from './Pages/Home';
 import Courses from './Pages/Courses';
 import Resources from './Pages/Resources';
@@ -20,7 +20,7 @@ function App() {
   <Router>
       <Header />
       <Routes>
-        <Route index element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='/courses'  element={<Courses />} />
         <Route path='/resources' element={<Resources />} />
         <Route path='/about' element={ <About /> } />
