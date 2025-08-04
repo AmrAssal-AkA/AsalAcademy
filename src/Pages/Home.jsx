@@ -60,7 +60,7 @@ function PrevCourses(){
 
 function Contact(){
     return (
-        <section className="bg-[#fceed6] py-16 flex items-center justify-center">
+        <section className="bg-gray-100 py-16 flex items-center justify-center">
         <div className="max-w-5xl w-full mx-4 grid md:grid-cols-2 gap-8 bg-opacity-90">
         {/* Contact Info */}
         <div className="flex flex-col justify-center text-black px-6">
