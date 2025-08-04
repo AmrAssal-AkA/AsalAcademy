@@ -9,7 +9,7 @@ const Footer = () =>{
         {name : "Home" , link : "/"},
         {name : "Resources" , link : "/resources"},
         {name : "Courses" , link : "/courses" },
-        {name : "Contact" , link : "/contact"}
+        {name : "About" , link : "/about"}
         ];
     return (
         <footer className='shadow-lg w-full  md:px-8 lg:px-8'>
