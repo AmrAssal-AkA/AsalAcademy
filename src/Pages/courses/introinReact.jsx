@@ -2,7 +2,7 @@ import React from "react";
 
 function IntroInReact() {
   return (
-    <div className="bg-gray-50 min-h-screen py-8 px-2 md:px-0 md:mt-15">
+    <div className="bg-gray-50 min-h-screen py-8 px-2 md:px-0 md:mt-15 sm:mt-10">
       <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-8">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
