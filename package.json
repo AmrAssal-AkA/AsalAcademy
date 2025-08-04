@@ -2,7 +2,7 @@
   "name": "asalacademy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://amrassal.github.io/AsalAcademy",
+  "homepage": "https://amrassal.github.io/AsalAcademy/",
   "type": "module",
   "scripts": {
     "dev": "vite",
