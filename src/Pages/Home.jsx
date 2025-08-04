@@ -24,13 +24,13 @@ function PrevCourses(){
     let courses = [
         {
             id: 1,
-            image: "https://via.placeholder.com/150",
+            image: "../assets/intro-to-programming.jpg",
             title: "Introduction to Programming",
             description: "Learn the basics of programming with hands-on exercises.",
         },
         {
             id: 2,
-            image: "https://via.placeholder.com/150",
+            image: "../assets/web-programming-bootcamp.png",
             title: "Web Development Bootcamp",
             description: "Build responsive websites using HTML, CSS, and JavaScript.",
         },
