@@ -1,8 +1,9 @@
 import React from 'react'
 import photoHeader from '../assets/Header-Page/Header.jpg'
 import Button from '../component/Button'
-
-
+import WebProgeaming from '../assets/Header-Page/web-programming-bootcamp.png'
+import  introToprogramming from '../assets/Header-Page/intro-to-programming.jpg'
+import DataScience from '../assets/Header-Page/DataScience.jpeg'
 function HomeHeader () {
     return(
         <section className="bg-gray-100 py-12 px-6 flex flex-col md:flex-row items-center justify-between sm:mt-10">
@@ -24,19 +25,19 @@ function PrevCourses(){
     let courses = [
         {
             id: 1,
-            image: "../assets/intro-to-programming.jpg",
+            image: WebProgeaming,
             title: "Introduction to Programming",
             description: "Learn the basics of programming with hands-on exercises.",
         },
         {
             id: 2,
-            image: "../assets/web-programming-bootcamp.png",
+            image: introToprogramming,
             title: "Web Development Bootcamp",
             description: "Build responsive websites using HTML, CSS, and JavaScript.",
         },
         {
             id: 3,
-            image: "https://via.placeholder.com/150",
+            image: DataScience,
             title: "Data Science Fundamentals",
             description: "Explore data analysis and visualization techniques.",
         }
